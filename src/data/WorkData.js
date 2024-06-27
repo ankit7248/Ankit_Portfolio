@@ -1,47 +1,31 @@
 export const Work = [
     {
-        id:1,
-        name:"Cinefacts",
-        description:"It is build on top of the React JS, and the Data is Coming from TMDB(The Movie DataBase).",
-        tags:["react js","TMDB","redux"],
-        
-        demo:"https://cine-facts.vercel.app/",
-        github:"https://github.com/Kunal0612/CineFacts"
+        id: 1,
+        name: "Suraksha",
+        description: " Architected an Android app integrated with an (Ultrasonic sensor) to automatically trigger an SOS signal in the event of a vehicle accident, promptly alerting both police and hospital dashboards for urgent assistance.",
+        tags: ["Java", "Firebase", "Ultrasonic Sensor"],
+        github: "https://github.com/ankit7248/Final-SIH-Vechile-Tracking-Problem-Statement"
     },
     {
-        id:2,
-        name:"DOCTOR APPOINTMENT APP : MERN STACK PROJECT",
-        description:"A Doctor appointment booking web app where patient can book doctors for their checkups.",
-        tags:["react","gsap","styledComponents"],
-        
-        demo:"https://medci-frontend.vercel.app/",
-        github:"https://github.com/Kunal0612/Hacktivist_MEDCI"
+        id: 2,
+        name: "Ip Explorer",
+        description: "Developed and launched an immersive Gaming Application focused on intellectual property rights education, integrating real-life scenarios and promoting critical thinking and problem-solving skills",
+        tags: ["Construct 2", "Blender", "Figma"],
+        github: "https://github.com/ankit7248/Enma-SIH"
     },
     {
-        id:3,
-        name:"Snake Game",
-        description:"It is build using HTML , CSS and Javascript with DOM functionality",
-        tags:["Valina Js","HTML","CSS"],
-        
-        demo:"https://snake-game-xi-sooty.vercel.app/",
-        github:"https://github.com/Kunal0612/Snake-Game"
+        id: 3,
+        name: "Lodger",
+        description: " Developed an intuitive Android application facilitating seamless connections between individuals seeking housing and property owners; streamlined the flat and PG search process",
+        tags: ["Kotlin", "Firebase", "Mongodb", "Nodejs"],
+        github: "https://github.com/ankit7248/Lodgers"
     },
     {
-        id:4,
-        name:"Write Here (To Do List)",
-        description:"Developed a functionality to store notes for individuals to securely store and retrieve the notes on the user’s device.",
-        tags:["HTML","CSS","JAVASCRIPT"],
-        
-        demo:"https://replit.com/@KunalShaw3/Writehere",
-        github:"https://replit.com/@KunalShaw3/Writehere"
+        id: 4,
+        name: "News App",
+        description: "This app provides news from all around the world, giving you access to the latest updates from any country. Working with Kotlin has been an amazing experience",
+        tags: ["Kotlin", "Retrofit", "Rest Api"],
+        github: "https://github.com/ankit7248/News_App"
     },
-    {
-        id:5,
-        name:"SIDCUP FAMILY GOLF : GSAP-ANIMATED WEBSITE",
-        description:"Developed a functionality to store notes for individuals to securely store and retrieve the notes on the user’s device.",
-        tags:["HTML","CSS","JAVASCRIPT"],
-        
-        demo:"https://sidcup-family-golf-gsap-animated-website.vercel.app/",
-        github:"https://github.com/Kunal0612/SIDCUP-FAMILY-GOLF-GSAP-ANIMATED-WEBSITE"
-    },
+
 ] 

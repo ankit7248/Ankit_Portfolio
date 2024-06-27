@@ -97,24 +97,24 @@ const WorkPage = () => {
   return (
     <ThemeProvider theme={DarkTheme}>
       <Contact
-          target="_blank"
-          href="https://www.linkedin.com/in/kunal-shaw-/"
+        target="_blank"
+        href="https://www.linkedin.com/in/ankit-kumar-986348224/"
+      >
+        <motion.h2
+          initial={{
+            y: -150,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          animate={{
+            y: 0,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
         >
-          <motion.h2
-            initial={{
-              y: -150,
-              transition: { type: "spring", duration: 1.5, delay: 1 },
-            }}
-            animate={{
-              y: 0,
-              transition: { type: "spring", duration: 1.5, delay: 1 },
-            }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <FaLinkedinIn />
-          </motion.h2>
-        </Contact>
+          <FaLinkedinIn />
+        </motion.h2>
+      </Contact>
       <Box>
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />
@@ -129,7 +129,7 @@ const WorkPage = () => {
           <YinYang width={80} height={80} fill={DarkTheme.text} />
         </Rotate>
 
-        <BigTitlte text="ACHIEVEMENTS" top="10%" right="20%"/>
+        <BigTitlte text="ACHIEVEMENTS" top="10%" right="20%" />
       </Box>
     </ThemeProvider>
   );

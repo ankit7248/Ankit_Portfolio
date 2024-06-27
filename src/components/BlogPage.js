@@ -92,7 +92,7 @@ const BlogPage = () => {
     >
       <Contact
         target="_blank"
-        href="https://www.linkedin.com/in/kunal-shaw-/"
+        href="https://www.linkedin.com/in/ankit-kumar-986348224/"
       >
         <motion.h2
           initial={{
