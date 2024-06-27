@@ -154,24 +154,12 @@ const MySkillsPage = () => {
         <ParticleComponent theme="light" />
         <Grid>
           <Main>
-            <Title>Teaching Assistant (CSFORALL) DEC 2023 - Present</Title>
+            {/* <Title>Company BlokMiner</Title> */}
+            <Title>Blokminer (Graphic Designer) Oct 2022 - Jan 2023</Title>
             <Description>
-              • Served as an Online Teaching Assistant (TA) for multiple DSA and
-              Competitive Programming batches, also reviewed their coursework.
-              <br />• Collaborated with fellow Team members to improve various
-              Course Materials
-            </Description>
-          </Main>
-          <Main>
-            <Title>Teaching Assistant (Ask Senior) JAN 2024 - Present</Title>
-            <Description>
-              • Created CP editorials on an "Ask Senior" platform to aid students
-              with concise and clear explanations of competitive programming
-              problems.
-              <br />
-              • Addressed numerous DSA and CP-related queries, offering
-              solutions and clarifications to aid fellow students in their
-              learning journey.
+              • Served as an Graphic Designer where I made Different types of poster and banners to enhance the company profile
+              resulting in a 20 percent boost in brand recognition and a 15 percent rise in user interaction.
+              <br />• Collaborated with fellow Team members to improve various posters and banners design.
             </Description>
           </Main>
         </Grid>
