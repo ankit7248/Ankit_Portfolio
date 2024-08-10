@@ -25,6 +25,21 @@ const Box = styled.div`
   }
 `;
 
+const Box1 = styled.div`
+  background-color: ${(props) => props.theme.body};
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  @media (max-width: 1300px) {
+    flex-direction: column;
+    padding: 8rem 0px;
+    height: auto;
+  }
+`;
+
 const Main = styled.div`
   border: 2px solid ${(props) => props.theme.text};
   color: ${(props) => props.theme.text};
@@ -165,6 +180,27 @@ const MySkillsPage = () => {
         </Grid>
         <BigTitle text="Experience" top="4%" right="-1%" />
       </Box>
+
+      <Box1>
+        <LogoComponent theme="light" />
+        <SocialIcons theme="light" />
+        {/* <PowerButton /> */}
+        <ParticleComponent theme="light" />
+        <Grid>
+          <Main>
+            {/* <Title>Company BlokMiner</Title> */}
+            <Title>Data Associate July 2024 - Present</Title>
+            <Description>
+              • Implemented advanced data validation techniques in Excel and SQL,maintaining data integrity and consistency, resulting
+              in a 30 % reduction in reporting errors and saving 15 hours weekly.
+              <br />• Compiling data and generating reports as needed.
+            </Description>
+          </Main>
+        </Grid>
+        <BigTitle text="Experience" top="4%" right="-1%" />
+      </Box1>
+
+
     </ThemeProvider>
   );
 };

@@ -9,7 +9,6 @@ import SocialIcons from "../subComponents/SocialIcons";
 // import PowerButton from "../subComponents/PowerButton";
 
 import { Work } from "../data/WorkData";
-import Card from "../subComponents/Card";
 import { YinYang } from "./AllSvgs";
 import BigTitlte from "../subComponents/BigTitlte";
 
@@ -68,6 +67,7 @@ const container = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
+
     transition: {
       staggerChildren: 0.5,
       duration: 0.5,
